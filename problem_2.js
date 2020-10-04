@@ -8,6 +8,5 @@ while (fibo[fibo.length-1] < 4000000){
 fibo.forEach(function(element){
   if (element%2==0){
     sum+=element};
-    //even_num.push(element)};
 });
 console.log(sum);
